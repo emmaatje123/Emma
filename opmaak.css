@@ -1,6 +1,3 @@
-
-.myDiv {
-  border: 5px outset rgb(255, 255, 255);
-  background-color: rgb(255, 0, 0);
-  text-align: center;
+body{
+  background-color:cadetblue
 }
