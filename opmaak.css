@@ -9,6 +9,9 @@ ul {
   background-color:beige
 }
 
+li {
+  float: left;
+}
 li a {
   display: block;
   color: #000;
