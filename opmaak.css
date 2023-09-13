@@ -23,3 +23,8 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
+p.one {
+  border-style: inset;
+  border-color: #4e4d53;
+}
