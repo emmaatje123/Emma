@@ -1,5 +1,5 @@
 body{
-  background-color:#b0aac0;
+  background-color:#80ced6;
   border-style: ouset;
   border-color: #fefbd8;
 }
@@ -25,5 +25,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #80ced6;
+  background-color: #d5f4e6;
 }
