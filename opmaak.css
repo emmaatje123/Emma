@@ -1,13 +1,15 @@
 body{
   background-color:#b0aac0;
   border-style: ouset;
-  border-color: c2d4dd;
+  border-color: #fefbd8;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:beige;
+  overflow: hidden;
+  background-color: #618685;
 }
 
 li {
@@ -16,17 +18,12 @@ li {
 
 li a {
   display: block;
-  color: #555;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-p {
-  border-style: ouset;
-  border-color: c2d4dd;
+  background-color: #80ced6;
 }
