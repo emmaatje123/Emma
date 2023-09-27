@@ -3,19 +3,19 @@ body{
   ;
   border-style: ouset;
   border-color: #fefbd8;
-}
-/*commentaar*/
+} /*opmaak van het hoofddeel van het document*/
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #618685;
-}
+} /*opmaak van de unordered list*/
 
 li {
   float: left;
-}
+} /*definieert een lijstitem*/
 
 li a {
   display: block;
