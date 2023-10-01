@@ -3,7 +3,7 @@ body{
   ;
   border-style: ouset;
   border-color: #fefbd8;
-} /*opmaak van het hoofddeel van het document*/
+} /*opmaak van het hoofddeel van het document, achtergrondkleur en border*/
 
 ul {
   list-style-type: none;
@@ -23,11 +23,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover {
-  background-color: #d5f4e6;
-}
+} /*tekst*/
 
 a:link, a:visited {
   background-color: #618685;
