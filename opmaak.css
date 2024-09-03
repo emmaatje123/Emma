@@ -113,3 +113,18 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 } /*link knop*/
+
+<body>
+
+<h2>Dropdown Menu</h2>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="index.html">Link 1</a>
+  <a href="index.html">Link 2</a>
+  <a href="index.html">Link 3</a>
+  </div>
+</div>
+
+</body>
