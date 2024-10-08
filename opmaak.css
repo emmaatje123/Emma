@@ -1,5 +1,4 @@
-.third-level-menu
-{
+.third-level-menu {
     position: absolute;
     top: 0;
     right: -150px;
@@ -10,15 +9,16 @@
     display: none;
 }
 
-.third-level-menu > li
-{
+.third-level-menu > li {
     height: 30px;
     background: #999999;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
 
-.second-level-menu
-{
+.third-level-menu > li:hover {
+    background: #CCCCCC;
+}
+
+.second-level-menu {
     position: absolute;
     top: 30px;
     left: 0;
@@ -29,37 +29,37 @@
     display: none;
 }
 
-.second-level-menu > li
-{
+.second-level-menu > li {
     position: relative;
     height: 30px;
     background: #999999;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
 
-.top-level-menu
-{
+.second-level-menu > li:hover {
+    background: #CCCCCC;
+}
+
+.top-level-menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.top-level-menu > li
-{
+.top-level-menu > li {
     position: relative;
     float: left;
     height: 30px;
     width: 150px;
     background: #999999;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
 
-.top-level-menu li:hover > ul
-{
-    /* On hover, display the next level's menu */
-    display: inline;
+.top-level-menu > li:hover {
+    background: #CCCCCC;
 }
 
+.top-level-menu li:hover > ul {
+    display: block; /* Verander inline naar block */
+}
 
 /* Menu Link Styles */
 
@@ -69,9 +69,17 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 0 0 0 10px;
-
-    /* Make the link cover the entire list item-container */
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #000000; }
+
+.top-level-menu a:hover {
+    color: #000000;
+}
+
+/* Clearfix to contain floated elements */
+.top-level-menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
