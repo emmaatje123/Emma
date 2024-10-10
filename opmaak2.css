@@ -10,12 +10,14 @@
     display: none;
 }
 
+
 .third-level-menu > li
 {
     height: 30px;
-    background: #618685;
+    background: #f0efef;
 }
-.third-level-menu > li:hover { background: #f0efef; }
+.third-level-menu > li:hover { background: #618685; }
+
 
 .second-level-menu
 {
@@ -29,13 +31,15 @@
     display: none;
 }
 
+
 .second-level-menu > li
 {
     position: relative;
     height: 30px;
     background: #f0efef;
 }
-.second-level-menu > li:hover { background: #f0efef; }
+.second-level-menu > li:hover { background: #618685; }
+
 
 .top-level-menu
 {
@@ -43,6 +47,7 @@
     padding: 0;
     margin: 0;
 }
+
 
 .top-level-menu > li
 {
@@ -52,7 +57,8 @@
     width: 150px;
     background: #f0efef;
 }
-.top-level-menu > li:hover { background: #f0efef; }
+.top-level-menu > li:hover { background: #618685; }
+
 
 .top-level-menu li:hover > ul
 {
@@ -61,7 +67,10 @@
 }
 
 
+
+
 /* Menu Link Styles */
+
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
@@ -69,6 +78,7 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 0 0 0 10px;
+
 
     /* Make the link cover the entire list item-container */
     display: block;
