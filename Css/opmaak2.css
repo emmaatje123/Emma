@@ -96,11 +96,4 @@ body{
 }
 .top-level-menu a:hover { color: #000000; }
 
-a:link, a:visited {
-    background-color: #618685;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  } /*link knop*/
+
