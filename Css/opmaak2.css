@@ -83,7 +83,7 @@
     /* Make the link cover the entire list item-container */
     display: block;
     line-height: 30px;
-    text-align: center;       
+    text-align: center;       /*tekst*/
     white-space: normal;       
     word-wrap: break-word;
 }
