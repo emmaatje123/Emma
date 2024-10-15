@@ -77,19 +77,15 @@
     font: bold 14px Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 0 0 0 10px;
+    padding: 0 10px;
 
 
     /* Make the link cover the entire list item-container */
     display: block;
     line-height: 30px;
+    text-align: center;       
+    white-space: normal;       
+    word-wrap: break-word;
 }
 .top-level-menu a:hover { color: #000000; }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } /*tekst*/
