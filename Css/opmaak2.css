@@ -1,3 +1,10 @@
+body{
+    background-color:#f0efef
+    ;
+    border-style: ouset;
+    border-color: #fefbd8;
+  } /*opmaak van het hoofddeel van het document, achtergrondkleur en border*/
+  
 .third-level-menu
 {
     position: absolute;
@@ -75,7 +82,7 @@
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
-    color: #f0efef;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 0 10px;
 
