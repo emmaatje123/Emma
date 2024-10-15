@@ -85,3 +85,11 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } /*tekst*/
